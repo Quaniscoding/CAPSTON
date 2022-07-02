@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+}
+.wrapper{
+    display: flex;
+}
+#Nav-tab .Nav-tab-UltimateList{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
