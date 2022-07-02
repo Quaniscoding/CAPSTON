@@ -1,11 +1,22 @@
 a{
     text-decoration: none;
+    color: green;
 }
-.wrapper{
-    display: flex;
+
+.Nav-header{
+     display: flex; 
 }
-#Nav-tab .Nav-tab-UltimateList{
-    display: flex;
+#Nav-tab ul{
+     display: flex;
+     flex-direction: row;
+    margin-left: 600px;
+
+}
+li{
     list-style-type: none;
-    justify-content: end;
+    margin: 10px;
 }
+
+/* .header{
+    position: fixed;
+} */
