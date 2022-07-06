@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Jost', sans-serif;
-    background: #696969;
+    background:#fff;
     color: #696969;
 }
 
@@ -96,6 +96,7 @@ h6 {
 .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    flex-direction: row-reverse;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -1034,3 +1035,386 @@ header {
     transition: 0.3s ease-out;
 }
 /* end footer */
+
+
+
+
+
+
+/* BLOG SPOT */
+/* about-blog*/
+.about-blog {
+    margin-top: 90px;
+    background: url(../img/banner4.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    padding: 1em 0;
+}
+.about-blog::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+.about-blog .title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.about-gallery .title2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.about-blog .about-blog-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+/* start blog-blog */
+.blog-blog{
+    background-color: rgba(147, 107, 232, 0.05);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card {
+    border: none;
+    background: #fff;
+    transition: .3s ease;
+    border-radius: 8px;
+}
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.card-header img {
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.blog-details {
+    background: #fff;
+    padding: 30px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+}
+a.blog-desc {
+    display: block;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #000c04;
+    margin-bottom: 6px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    text-transform: capitalize;
+}
+.author {
+    color: #999;
+}
+.author a {
+    color:#000c04;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+li.meta-item {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 15px;
+    color: #888;
+}
+.card:hover {
+    transform: translateY(-0.5rem);
+    transition: .3s ease;
+}
+.page-pagination li {
+    display: inline-block;
+    margin: 0 5px;
+}
+span.current {
+    display: block;
+    text-align: center;
+    border: 0;
+    color:#35a22c;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+a.page-numbers {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000c04;
+    width: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* end blog-blog */
+
+
+/* GALLERY */
+
+/* about-gallery */
+.about-gallery {
+    margin-top: 90px;
+    background: url(../img/banner4.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    padding: 1em 0;
+}
+.about-gallery h2.title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.about-gallery .about-gallery-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+.gallery .about-gallery-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+.gallery .gallery-custom-path li span.fa {
+    font-size: 12px;
+    vertical-align: 2px;
+}
+.about-gallery::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+
+/* end about-gallery */
+
+
+/* start gallery-portfolio */
+.gallery-portfolio .title1 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.gallery-portfolio .title2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.portfolio-item a {
+    display: block;
+}
+.hover14 figure {
+    position: relative;
+    margin: 0px;
+    overflow: hidden;
+}
+.hover14 figure::before {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    transform: skewX(-25deg);
+}
+.gallery-portfolio .mb-4 img{
+    border-radius: 10px;
+    
+}
+.hover14 figure:hover::before {
+    animation: shine .75s;
+}
+.lightboxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    display: none;
+}
+.lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    line-height: 0;
+    font-weight: normal;
+}
+.lb-outerContainer {
+    position: relative;
+    background-color: white;
+    *zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.lb-container {
+    padding: 4px;
+}
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: inherit;
+    border-radius: 3px;
+}
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+.lb-dataContainer {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.lb-data .lb-details {
+    width: 90%;
+    float: left;
+    text-align: left;
+    line-height: 1.1em;
+    margin-top: 1em;
+}
+.lb-data .lb-caption {
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #fff;
+    letter-spacing: .5px;
+}
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-top: 1em;
+    font-size: 1em;
+    color: #f53626;
+}
+.lb-nav a.lb-prev {
+    width: 5em;
+    float: left;
+    background: url(../img/img-sprite.png) 40px 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.lb-nav a.lb-next {
+    width: 5em;
+    right: 0;
+    float: right;
+    background: url(../img/img-sprite.png) -23px 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.lb-prev, .lb-next {
+    height: 100%;
+    cursor: pointer;
+    display: block;
+}
+.lb-nav a.lb-prev:hover {
+
+    opacity: 1;
+}
+.lb-nav a.lb-next:hover {
+
+    opacity: 1;
+}
+a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+.lb-cancel {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(../img/loading.gif) no-repeat;
+}
+.lb-data .lb-close {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 1em;
+    background: url(../img/close.png) top right no-repeat;
+    text-align: right;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+@-webkit-keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+  @keyframes shine {
+    100% {
+      left: 100%;
+    }
+  }
