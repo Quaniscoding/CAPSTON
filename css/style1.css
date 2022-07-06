@@ -1034,6 +1034,10 @@ header {
     border-radius: 50px;
     transition: 0.3s ease-out;
 }
+.footer .footer-list-28 ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
 /* end footer */
 
 
