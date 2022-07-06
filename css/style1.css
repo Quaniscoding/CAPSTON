@@ -17,11 +17,16 @@ html {
     background-color: #189A46;
     border-color: #189A46;
 }
-
+ .btn-primary:active {
+    color: #fff;
+    background-color: #189A46 !important;
+    border-color:#189A46  !important;
+}
+.bt
 .btn-primary:hover {
     color: #fff;
-    background-color: #189A46;
-    border-color: #189A46;
+    background-color: #116E32;
+    border-color: #116E32;
 }
 
 p {
@@ -950,6 +955,11 @@ header {
 }
 .subscribe form.subscribe-form button {
     flex-basis: 27%;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #116E32;
+    border-color: #116E32;
 }
 /* end subscribe */
 
