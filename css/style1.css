@@ -1069,12 +1069,9 @@ header {
     opacity: .6;
 }
 .about-blog .title {
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 2em;
-    letter-spacing: 1px;
-    color: #f53626;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
 }
 .about-gallery .title2 {
     font-size: 40px;
