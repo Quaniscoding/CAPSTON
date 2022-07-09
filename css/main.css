@@ -1,21 +1,3 @@
-a{
-    text-decoration: none;
-    color: green;
-}
-
-.Nav-header{
-     display: flex; 
-}
-#Nav-tab ul{
-     display: flex;
-     flex-direction: row;
-    margin-left: 600px;
-
-}
-li{
-    list-style-type: none;
-    margin: 10px;
-}
 
 /* .header{
     position: fixed;
