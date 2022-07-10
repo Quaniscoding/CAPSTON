@@ -847,7 +847,7 @@ h1{
     font-size: medium;
     color: red;
 }
-.img-header .wrapper{
+.img-header{
  background-image: url(../img/banner4.jpg);
     background-clip: content-box;
     width: auto;
@@ -865,12 +865,11 @@ li{
     text-align: center;
 }
 span{
-    background-color: blue;
     width: 10px;
     height: 10px;
 }
 .img-header{
-    margin-top: 63px;
+    margin-top: 71px;
 }
 .Introduction-Wrapper{
     position: relative;
@@ -1045,9 +1044,6 @@ i{
     text-align: center;
 }
 
-
-
-
 .ourTeam{
    color:rgba(147, 107, 232, 0.05);
    margin-top: 100px;
@@ -1065,7 +1061,9 @@ i{
     color: green !important;
     transition: all .3s;
 }
-
+.First-Part-Right{
+    display: flex;
+}
 
 
 
