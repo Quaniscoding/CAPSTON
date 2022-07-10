@@ -1061,9 +1061,23 @@ i{
     color: green !important;
     transition: all .3s;
 }
-.First-Part-Right{
-    display: flex;
+.First-Part-Right1{
+    position: relative;
+    margin-top: 60px;
+
 }
+.fa-american-sign-language-interpreting{
+    position: relative;
+    right: 10px;
+    bottom: 15px;
+}
+.Intro-AboutUs .Link1{
+    font-size: 20px;
+}
+.footer{
+    background-color: black;
+}
+
 
 
 
