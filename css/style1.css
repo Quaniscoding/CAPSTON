@@ -1062,7 +1062,7 @@ i{
     cursor: pointer;
 }
 .w3l-team-main .title-content :hover .column .name-pos{
-    color: green;
+    color: green !important;
     transition: all .3s;
 }
 
