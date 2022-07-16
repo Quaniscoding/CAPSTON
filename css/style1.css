@@ -122,6 +122,7 @@ ul {
     font-weight: 400;
     transition: 0.3s ease-in;
     border-radius: 10px;
+    margin-left: 450px;
 }
 
 body a,
@@ -146,9 +147,7 @@ li {
     list-style-type: none;
 }
 
-.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
-    color: #189A46;
-}
+
 
 .navbar-expand-lg .navbar-nav .nav-link {
     text-transform: capitalize;
@@ -158,6 +157,9 @@ li {
     font-weight: 400;
     position: relative;
     color: #000c04;
+}
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link:hover{
+    color: #189A46;
 }
 
 .nav-link {
@@ -171,7 +173,7 @@ nav ul li a:before {
     transition: all .5s;
 }
 
-a {
+a{
     color: black;
     text-decoration: none;
     background-color: transparent;
@@ -192,7 +194,7 @@ a.read {
 
 a:hover {
     text-decoration: none;
-    color: #189A46 !important;
+    color: #189A46;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover:before,
@@ -696,7 +698,7 @@ header {
     height: 55px;
     line-height: 55px;
     border-radius: 50%;
-    transition: 0.3s ease-in-out;
+   transition: 0.3s ease-in-out;
     animation: ripple 1s linear infinite;
 }
 
@@ -714,8 +716,11 @@ header {
 .feedback .footer {
     max-width: 1050px;
     margin: auto;
+    
 }
-
+.footer-services{
+    margin-top: 30px;
+}
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
@@ -883,7 +888,7 @@ span{
     justify-content: center;
 }
 i{
-    width: 200px;
+    width: auto;
     height: 100px;
 }
 .Introduction-Wrapper h1{
@@ -898,6 +903,7 @@ i{
 }
 .Header3-Expericences-left{
     color: red;
+    margin-top: 35px;
 }
 .Experiences-left h4{
     /* padding-left: 100px; */
@@ -1075,20 +1081,211 @@ i{
     font-size: 20px;
 }
 .footer{
-    background-color: black;
+  display: block;
+  background-color: black;
+}
+.First{
+  color: white;
+}
+.Company{
+  color: white;
+}
+.Links{
+  color: white;
+}
+.Supports{
+  color: white;
+}
+li{
+  list-style-type: none;
+}
+.Important-Info{
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.UltimateList1 a{
+  text-decoration: none;
+}
+.footer .list{
+  margin-top: 10px;
+} 
+.footer a{
+    color: grey;
+    margin: 0;
+}
+.Important-Info a{
+    justify-content: none;
+}
+.Important-Info .Icoin:hover{
+    color: white;
+}
+.Email{
+    color: gray;
+}
+/* .nav-link:hover{
+    color: green;
+    transition: .3s;
+} */
+.midd-footer-28{
+    border-top: 3px solid rgba(103, 99, 99, 0.14);
+}
+.copy-footer-28 a{
+    color: red;
+}
+.UltimateList1 .Second .Third .Email{
+    margin-top: 20px;
+}
+.Distance li{
+    margin-top: 15px;
+}
+.link:hover{
+    color: white;
+}
+.section-wrap{
+    display: flex;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}   
+.img-fluid{
+    width: 60%;
+    height: auto;
+    border-radius: 4%;
+    margin-left: 12px;
+}
+ .Paragraph-About-Img{
+    margin-top: 100px;
+} 
+.paragraph-right{
+    margin-top: 10px;
+    padding-right: 240px;
+}
+.paragraph-right>p{
+    font-size: 1.2em;
+    line-height: 28px;
+}
+.heading{
+    margin-top: 15px;
+}
+.heading4{
+    font-weight: 600;
+    font-size: 40px;
+}
+.paragraph{
+    font-size: 1.2em;
+    line-height: 28px;
+    font-family: 'Josh',sans-serif;
+    color: #696969;
+}
+.section-wrap2{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.text-left{
+    text-align: left !important;
+}
+.img-fluid1{
+    width: 80%;
+    margin-left: 40px;
+}
+.img-fluid2{
+    width: 65%;
+}
+.section-wrap3{
+    display: flex;
+    justify-content: start;
+    margin-top: 100px;
+}
+.img-fluid1-4{
+    width: 86%;
+}
+/* .img-left{
+    margin-top: 100px;
+} */
+.contact-viewhny{
+    margin-top: 100px;
+}
+.conTact{
+    display: flex;
+}
+.twice-two{
+    display: flex;
+}
+.contact-viewhny .map-content-9{
+    width: 50%;
+}
+.cont-detailshnyf{
+    margin-left: 100px;
+}
+.cont-tophny{
+    display: flex;
+}
+.text-primary{
+    color: green !important;
+}
+.form-control{
+    margin-bottom: 15px;
+    margin-left: 2px;
+}
+.twice{
+    margin-bottom: 20px;
+}
+.fa{
+    position: relative;
+    right: 0px;
+}
+h6{
+    font-size: large;
+}
+.link:hover{
+    color: white;
+}
+/* desktop : (lg) */
+@media screen and (max-width: 1200px) {
+    
+}
+/* Tablet(md) */
+@media screen and (max-width: 992px){
+    
+}
+/* Phone Ngang (sm) */
+@media screen and (max-width: 768px){
+    
+}
+/* phone doc (xs) */
+@media screen and (max-width: 576px){
+    body{
+        width: 627px;
+    }
+    .fixed-top{
+        width: fit-content;
+    }
+    .History-image{
+        background-position: center;
+    }
+    .img-header{
+        /* background-position: center; */
+        /* background-size: cover; */
+        /* background-attachment: fixed; */
+        background-clip: content-box;
+        background-origin: content-box;
+    }
+    .feature-1-content{
+        position: relative;
+        left: 55px;
+    }
+    .Who-We-Are-Info{
+        display: block;
+        position: relative;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .IMG-Introduce{
+        height: 100vh;
+    }
+    .Left{
+        width: 100%;
+    }
+}
 
