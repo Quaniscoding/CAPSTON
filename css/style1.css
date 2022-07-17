@@ -1226,19 +1226,39 @@ li{
 .form-control{
     margin-bottom: 15px;
     margin-left: 2px;
+    background-color: #f9f7fe;
 }
 .twice{
     margin-bottom: 20px;
 }
-.fa{
+.cont-left .fa{
     position: relative;
-    right: 0px;
+    right: 20px;
 }
 h6{
     font-size: large;
 }
 .link:hover{
     color: white;
+}
+.form-control:hover{
+    border-color: #189A46;
+}
+#w3lSender{
+    margin-left: 15px;
+}
+.btn-primary:hover{
+    background-color: #978c8cd8;
+}
+.cont-detailshnyf .cont-detailshnyf p a{
+    color: grey;
+    font-weight: bold;
+}
+.cont-detailshnyf  .cont-detailshnyf a:hover{
+    color: #189A46;
+}
+.social-left a span{
+    margin-left: 10px;
 }
 /* desktop : (lg) */
 @media screen and (max-width: 1200px) {
@@ -1286,6 +1306,56 @@ h6{
     }
     .Left{
         width: 100%;
+        text-align: center;
     }
+    .Intro-AboutUs{
+        margin-top: 15px;
+    }
+    .fa{
+        position: relative;
+        right: 15px;
+    }
+    .fas{
+        position: relative;
+        right: 15px;
+    }
+    .mx-2{
+        position: relative;
+        left: 3px;
+    }
+    .list1{
+        font-weight: bolder;
+    }
+    #site-header{
+        width: 100%;
+    }
+    .history-grids{
+        position: relative;
+        left: 3px;
+        font-weight: bold;
+    }
+    .clearfix{
+        clear: both;
+    }
+    /* service responsive */
+    .stroke{
+        position: relative;
+        left: 35px;
+    }
+    .section-wrap{
+        display: block;
+        text-align: center;
+    }
+    .paragraph-right{
+    margin-left: 250px;
+    }
+    .section-wrap2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-right1{
+        text-align: center;
+    }
+
 }
 
