@@ -958,13 +958,17 @@ i{
     margin-top: 100px;
     background-size: cover;
     align-items: center;
+    position: relative;
+    
 }
 .History-image::before{
     content: "";
-    display: grid;
-    /* background-color: rgba(0, 4, 8, 0.69);  */
+    display: block;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(0, 4, 8, 0.69); 
     position: absolute;
-    z-index: -1;
+    z-index: 10;
     min-height: 100%;
     top: 0;
     left: 0;
@@ -1043,6 +1047,7 @@ i{
 }
 .Who-We-Are-Info{
     display: flex;
+    width: auto;
 }
 .who-we-are .content4-icon{
     color: var(--primary-color);
@@ -1269,8 +1274,38 @@ h6{
     
 }
 /* Phone Ngang (sm) */
+/* service */
 @media screen and (max-width: 768px){
-    
+    .section-wrap{
+        display: block;
+        text-align: center;
+    }
+    .section-wrap .paragraph-right{
+        position: relative;
+        left: 100px;
+    }
+    .navbarTogglerDemo02{
+        width: 70px;
+    }
+    .clearfix{
+        clear: both;
+    }
+    .section-wrap2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-header{
+        background-image: url(../img/banner4.jpg);
+        background-position: center;
+        background-size: contain;
+    }
+    .section-wrap2 .paragraph-right{
+        margin-left: 200px ;
+    } 
+    /* contact */
+    .footer{
+        width: 1250px;
+    }
 }
 /* phone doc (xs) */
 @media screen and (max-width: 576px){
@@ -1356,6 +1391,14 @@ h6{
     .img-right1{
         text-align: center;
     }
+    .heading{
+        text-align: center;
+    }
+    .section-wrap3{
+        display: block;
+        text-align: center;
+    }
+    
 
 }
 
