@@ -1,3 +1,4 @@
 -Thành viên 
 *Ngô Văn Quân 
 Các trang làm : Home,blogpost,gallery
+Các trang làm : About, contact, services
