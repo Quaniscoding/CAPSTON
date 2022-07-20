@@ -1746,7 +1746,9 @@ h3.hny-title.two {
     display: block;
     margin-top: 3px;
 }
-
+.contact-1 .cont-right p a{
+    color: #696969 !important;
+}
 iframe {
     border: none;
     display: block;
