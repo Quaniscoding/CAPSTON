@@ -1601,6 +1601,11 @@ h3.hny-title.two {
 .team-main h3.name-pos, .team-main .social {
     margin-top: 16px;
 }
+.team-main .team-info:hover img.team-image {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+    border-radius: 6px;
+}
 .team-main h3.name-pos a {
     font-size: 22px;
     line-height: 26px;
@@ -1622,6 +1627,16 @@ h3.hny-title.two {
     text-align: center;
     background: rgba(147, 107, 232, 0.05);;
     color: #35a22c;
+}
+.team-main .column {
+    overflow: hidden;
+}
+.position-relative {
+    position: relative !important;
+}
+.team-main .name-pos a:hover {
+    color:#35a22c !important;
+    text-decoration: none !important;
 }
 .about-services {
     margin-top: 90px;
